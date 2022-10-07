@@ -112,7 +112,7 @@ class Bot(Client):
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[☠️ SUCCESSFULLY ACTIVATED! ☠️]\n\nBOT Made by @{OWNER}\nIf @{OWNER} Need Help, Please Ask In The Group https://t.me/MaximXGroup"
+            f"[🔥️ SUCCESSFULLY ACTIVATED! 🔥️]\n\nBOT Made by @{OWNER}\nIf @{OWNER} Need Help, Please Ask In The Group https://t.me/MaximXGroup"
         )
 
     async def stop(self, *args):
