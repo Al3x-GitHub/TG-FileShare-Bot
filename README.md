@@ -4,7 +4,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=iOS&pause=1000&color=F70000&width=435&lines=Hi%2C+I'm+I𝗓υɱi+和泉.;Welcome+To+My+Profile.;Telegram+File+Share%2C+Bot.)
 
 
-# TG-FileShare-Bot
+# 𝐓𝐆-𝐅𝐢𝐥𝐞𝐒𝐡𝐚𝐫𝐞-𝐁𝐨𝐭
 This is Telegram Parmanent Files Store Bot by [@AL3X-Github](https://github.com/AL3X-Github).
 
 * **Language:** [Python3](https://www.python.org)
@@ -14,14 +14,14 @@ This is Telegram Parmanent Files Store Bot by [@AL3X-Github](https://github.com/
 
 <p>
 
-### Features:
+### 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:
 - In PM Just Forward or Send any file it will save on Database & give you the Access Link.
 - In Channel Add Bot as Admin with Edit Rights. When you will send any file or media in Channel it will Edit the Broadcast Message with Saved Link Button.
 - You can also Broadcast anythings via this Bot.
 - You can also Do Force Sub to a Channel to allow access the Bot.
 - Save Multiple Files in Same Link. (Batch)
 
-### Demo Bot:
+### 𝐃𝐞𝐦𝐨 𝐁𝐨𝐭:
 <a href="https://t.me/ShareFileXBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
@@ -49,10 +49,10 @@ This is Telegram Parmanent Files Store Bot by [@AL3X-Github](https://github.com/
 	- Put all banned channel IDs & Separate with space.
 
 
-### Deploy Now:
+### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐍𝐨𝐰:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AL3X-Github/TG-FileShare-Bot)
 
-## Commands:
+## 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬:
 ```
 start - start the bot
 clear_batch - Clear User Batch Files
