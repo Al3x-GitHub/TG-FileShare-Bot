@@ -14,17 +14,17 @@ async def showid(client, message):
     if chat_type == "private":
         user_id = message.chat.id
         await message.reply_text(
-            f"<b>Your User Id Is:</b> <code>{user_id}</code>", quote=True
+            f"<b>😊 𝐘𝐨𝐮𝐫 𝐔𝐬𝐞𝐫 𝐈𝐃:</b> <code>{user_id}</code>", quote=True
         )
 
     elif chat_type in ["group", "supergroup"]:
         _id = ""
-        _id += f"<b>👥 Chat ID</b>: <code>{message.chat.id}</code>"
+        _id += f"<b>👥 𝐂𝐡𝐚𝐭 𝐈𝐃</b>: <code>{message.chat.id}</code>"
         if message.reply_to_message:
-            _id += f"<b>🙋‍♂️ Replied User ID</b>: <code>{message.reply_to_message.from_user.id}</code>"
+            _id += f"<b>🙋‍♂️ 𝐑𝐞𝐩𝐥𝐢𝐞𝐝 𝐔𝐬𝐞𝐫 𝐈𝐃</b>: <code>{message.reply_to_message.from_user.id}</code>"
             file_info = get_file_id(message.reply_to_message)
         else:
-            _id += "<b>👤 User ID</b>: <code>{message.from_user.id}</code>"
+            _id += "<b>👤 𝐔𝐬𝐞𝐫 𝐈𝐃 </b>: <code>{message.from_user.id}</code>"
             file_info = get_file_id(message)
         if file_info:
             _id += (

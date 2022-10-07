@@ -11,7 +11,7 @@ async def batch(client: Client, message: Message):
     while True:
         try:
             first_message = await client.ask(
-                text="<b>Please Forward The First Message/file From The Database Channel. (Forward with Qoute)</b>\n\n<b>or Send Post Link From Channel Database</b>",
+                text="<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐓𝐡𝐞 𝐅𝐢𝐫𝐬𝐭 𝐌𝐞𝐬𝐬𝐚𝐠𝐞/𝐅𝐢𝐥𝐞 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b>\n\n<b>or 𝐒𝐞𝐧𝐝 𝐏𝐨𝐬𝐭 𝐋𝐢𝐧𝐤 𝐅𝐫𝐨𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -22,7 +22,7 @@ async def batch(client: Client, message: Message):
         if f_msg_id:
             break
         await first_message.reply(
-            "❌ <b>ERROR</b>\n\n<b>This Forwarded Post Is Not From My Channel Database</b>",
+            "❌ <b>𝐄𝐫𝐫𝐨𝐫𝟒𝟎𝟒</b>\n\n<b>𝐓𝐡𝐢𝐬 𝐅𝐨𝐫𝐰𝐚𝐫𝐝𝐞𝐝 𝐏𝐨𝐬𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐅𝐫𝐨𝐦 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
             quote=True,
         )
         continue
@@ -30,7 +30,7 @@ async def batch(client: Client, message: Message):
     while True:
         try:
             second_message = await client.ask(
-                text="<b>Please Forward The First Message/file From The Database Channel. (Forward with Qoute)</b>\n\n<b>or Send Post Link From Channel Database</b>",
+                text="<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐓𝐡𝐞 𝐅𝐢𝐫𝐬𝐭 𝐌𝐞𝐬𝐬𝐚𝐠𝐞/𝐅𝐢𝐥𝐞 𝐅𝐨𝐫𝐦 𝐓𝐡𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b>\n\n<b>or 𝐒𝐞𝐧𝐝 𝐏𝐨𝐬𝐭 𝐋𝐢𝐧𝐤 𝐅𝐨𝐫𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -41,7 +41,7 @@ async def batch(client: Client, message: Message):
         if s_msg_id:
             break
         await second_message.reply(
-            "❌ <b>ERROR</b>\n\n<b>This Forwarded Post Is Not From My Channel Database</b>",
+            "❌ <b>𝐄𝐫𝐫𝐨𝐫𝟒𝟎𝟒</b>\n\n<b>𝐓𝐡𝐢𝐬 𝐅𝐨𝐫𝐰𝐚𝐫𝐝𝐞𝐝 𝐏𝐨𝐬𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐅𝐨𝐫𝐦 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
             quote=True,
         )
         continue
@@ -53,13 +53,13 @@ async def batch(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 𝐒𝐡𝐚𝐫𝐞 𝐋𝐢𝐧𝐤", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
     await second_message.reply_text(
-        f"<b>🔗 File Sharing Link Successfully Created:</b>\n\n{link}",
+        f"<b>𝐅𝐢𝐥𝐞 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐋𝐢𝐧𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐂𝐫𝐞𝐚𝐭𝐞𝐝:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -70,7 +70,7 @@ async def link_generator(client: Client, message: Message):
     while True:
         try:
             channel_message = await client.ask(
-                text="<b>Please Forward Messages From The Database Channel. (Forward with Qoute)</b>\n\n<b>or Send Post Link From Channel Database</b>",
+                text="<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐝𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b>\n\n<b>𝐎𝐫 𝐒𝐞𝐧𝐝 𝐏𝐨𝐬𝐭 𝐋𝐢𝐧𝐤 𝐅𝐫𝐨𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -81,7 +81,7 @@ async def link_generator(client: Client, message: Message):
         if msg_id:
             break
         await channel_message.reply(
-            "❌ <b>ERROR</b>\n\n<b>This Forwarded Post Is Not From My Channel Database</b>",
+            "❌ <b>𝐄𝐫𝐫𝐨𝐫𝟒𝟎𝟒</b>\n\n<b>𝐓𝐡𝐢𝐬 𝐅𝐨𝐫𝐰𝐚𝐫𝐝𝐞𝐝 𝐏𝐨𝐬𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐅𝐫𝐨𝐦 𝐌𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b>",
             quote=True,
         )
         continue
@@ -92,13 +92,13 @@ async def link_generator(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 𝐒𝐡𝐚𝐫𝐞 𝐋𝐢𝐧𝐤", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
     await channel_message.reply_text(
-        f"<b>File Sharing Link Created Successfully:</b>\n\n{link}",
+        f"<b>𝐅𝐢𝐥𝐞 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐋𝐢𝐧𝐤 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )

@@ -45,7 +45,7 @@ async def channel_post(client: Client, message: Message):
         )
     except Exception as e:
         LOGGER(__name__).warning(e)
-        await reply_text.edit_text("<b>An Error Has Occurred</b>")
+        await reply_text.edit_text("<b>𝐀𝐧 𝐄𝐫𝐫𝐨𝐫 𝐇𝐚𝐬 𝐎𝐜𝐜𝐮𝐫𝐫𝐞𝐝</b>")
         return
     converted_id = post_message.message_id * abs(client.db_channel.id)
     string = f"get-{converted_id}"
@@ -56,14 +56,14 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 𝐒𝐡𝐚𝐫𝐞 𝐋𝐢𝐧𝐤", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
 
     await reply_text.edit(
-        f"<b>File Sharing Link Successfully Created :</b>\n\n{link}",
+        f"<b>𝐅𝐢𝐥𝐞 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐋𝐢𝐧𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐂𝐫𝐞𝐚𝐭𝐞𝐝:</b>\n\n{link}",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
@@ -91,7 +91,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 𝐒𝐡𝐚𝐫𝐞 𝐋𝐢𝐧𝐤", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]

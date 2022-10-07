@@ -56,10 +56,10 @@ def updater():
 @Bot.on_message(filters.command("update") & filters.user(ADMINS))
 async def update_bot(_, message: Message):
     message.chat.id
-    msg = await message.reply_text("Checking updates...")
+    msg = await message.reply_text("𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬...")
     update_avail = updater()
     if update_avail:
-        await msg.edit("✅ Update Finished !")
+        await msg.edit("✅ 𝐔𝐩𝐝𝐚𝐭𝐞 𝐅𝐢𝐧𝐢𝐬𝐡𝐞𝐝!")
         system("git pull -f && pip3 install --no-cache-dir -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
@@ -73,9 +73,9 @@ async def update_bot(_, message: Message):
 async def restart_bot(_, message: Message):
     try:
         msg = await message.reply_text("`Restarting bot...`")
-        LOGGER(__name__).info("BOT SERVER RESTARTED !!")
+        LOGGER(__name__).info("𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝!!")
     except BaseException as err:
         LOGGER(__name__).info(f"{err}")
         return
-    await msg.edit_text("✅ Bot Has Restarted !\n\n")
+    await msg.edit_text("🤖 𝐁𝐨𝐭 𝐇𝐚𝐬 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝!!\n\n")
     os.system(f"kill -9 {os.getpid()} && bash start")
