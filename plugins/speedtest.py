@@ -11,7 +11,7 @@ from config import ADMINS
 
 @Bot.on_message(filters.command("speedtest") & filters.user(ADMINS))
 async def run_speedtest(client: Bot, message: Message):
-    m = await message.reply_text("🚀 Running Server Speedtest")
+    m = await message.reply_text("⚡ Running Server Speedtest")
     try:
         test = speedtest.Speedtest()
         test.get_best_server()

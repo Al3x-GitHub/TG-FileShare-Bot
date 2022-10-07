@@ -7,7 +7,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help"),
-                InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞", callback_data="close"),
+                InlineKeyboardButton(text="⛔ 𝐂𝐥𝐨𝐬𝐞 ⛔", callback_data="close"),
             ],
         ]
         return buttons
@@ -18,7 +18,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help"),
-                InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞", callback_data="close"),
+                InlineKeyboardButton(text="⛔ 𝐂𝐥𝐨𝐬𝐞 ⛔", callback_data="close"),
             ],
         ]
         return buttons
@@ -29,7 +29,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help"),
-                InlineKeyboardButton(text="ᴄʟᴏsᴇ𝐂𝐥𝐨𝐬𝐞", callback_data="close"),
+                InlineKeyboardButton(text="⛔ 𝐂𝐥𝐨𝐬𝐞 ⛔", callback_data="close"),
             ],
         ]
         return buttons
@@ -42,7 +42,7 @@ def start_button(client):
                 InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬", url=client.invitelink),
                 InlineKeyboardButton(text="𝐆𝐫𝐨𝐮𝐩", url=client.invitelink2),
             ],
-            [InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞", callback_data="close")],
+            [InlineKeyboardButton(text="⛔ 𝐂𝐥𝐨𝐬𝐞 ⛔", callback_data="close")],
         ]
         return buttons
 
