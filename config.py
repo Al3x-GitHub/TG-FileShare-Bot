@@ -19,7 +19,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "MaximXRobot")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>I Can Save Private Files In Specific Channels And Other Users Can Access Them From Special Links.</b>",
+    "<b>Hello {mention}</b>\n\n<b>I Can Save Private Files In Specific Channels And Other Users Can Access Them From Special Links.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -53,7 +53,7 @@ except ValueError:
 # Message When Forcing Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\n You Have To Join My Channel/Group First To See The Files That I Share\n\nPlease Join My Channel & Group First</b>",
+    "<b>Hello {mention}\n\n You Have To Join My Channel/Group First To See The Files That I Share\n\nPlease Join My Channel & Group First</b>",
 )
 
 # Set Your Custom Text Here, Save (None) To Disable Custom Text

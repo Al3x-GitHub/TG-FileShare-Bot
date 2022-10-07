@@ -15,19 +15,19 @@
     },
     "OWNER": {
       "description": "Enter Telegram Username for Owner BOT [ Without @ ]",
-      "value": "Premium"
+      "value": "MaximXRobot"
     },
     "ADMINS": {
       "description": "Enter User ID To Get Admin Rights In BOT [Use Space to Separate User ID]",
-      "value": "0"
+      "value": ""
     },
     "APP_ID": {
       "description": "Get APP ID On The Web my.telegram.org",
-      "value": "123456"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get API HASH On The Web my.telegram.org",
-      "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+      "value": ""
     },
     "CHANNEL_ID": {
       "description": "Enter Channel ID For [Channel Database]",
@@ -39,19 +39,19 @@
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Enter The ID Of The Channel Or Group For Mandatory Subscription, If You Don't Want To Use The Fsub, Fill It With 0",
-      "value": "0"
+      "value": "-100"
     },
     "FORCE_SUB_GROUP": {
       "description": "Enter The ID Of The Group For Mandatory Subscription, if You Don't Want To Use The Fsub, Fill It With 0",
-      "value": "0"
+      "value": "-100"
     },
     "START_MESSAGE": {
       "description": "The Message /start Starts A Prefix To The Bot, Use Parsemode HTML Format",
-      "value": "<b>Hello {first}\n\nI Can Save Private Files In Specific Channels And Other Users Can Access Them From</b>"
+      "value": "<b>Hello {mention}\n\nI Can Save Private Files In Specific Channels And Other Users Can Access Them From</b>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Forced Message Subscribe Bot, Use Parsemode Format HTML",
-      "value": "<b>Hello {first}\n\n You Have To Join My Channel/Group To Use Me\n\n Please Join The Channel First</b>"
+      "value": "<b>Hello {mention}\n\n You Have To Join My Channel/Group To Use Me\n\n Please Join The Channel First</b>"
     }
   },
   "addons": [

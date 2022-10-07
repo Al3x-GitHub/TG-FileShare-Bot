@@ -2,24 +2,25 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❍ Commands For BOT Users 
+<b> ❍ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐅𝐨𝐫 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫𝐬
  ├ /start - Start Bot
  ├ /about - About This Bot
  ├ /help - This Bot Command Help
  ├ /ping - To Check Alive Bot
  └ /uptime - To View Bot Status
  
- ❏️ Commands For BOT Admin
+ ❏️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐅𝐨𝐫 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧
  ├ /logs - To View Bot Logs
  ├ /setvar - To Set Var With Command
  ├ /delvar - To Delete Var With Command
- ├ /getvar - To View One Of The Vars With The Command
+ ├ /getvar - To View One Of The Vars With The
+ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
  ├ /users - To View Bot User Statistics
  ├ /batch - To Link More Than One File
  ├ /speedtest - To Test The Speed Of The Bot Server
  └ /broadcast - To Send Broadcast Messages To Bot Users
 
-👨‍💻 Develoved By : </b><a href='https://t.me/MaximXRobot'> I𝗓υɱi 和泉</a>
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 : </b><a href='https://t.me/MaximXRobot'>@MaximXRobot</a>
 """
 
     close = [
@@ -41,13 +42,13 @@ class Data:
     ]
 
     ABOUT = """
-<b>🤖 About This Bot :
+<b>🤖 ❝ 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ❞
 
 @{} Is A Telegram Bot To Store Posts Or Files That Can Be Accessed Via Special Links Work 24×7.
 
- • Creator: @{}
- • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
+ • 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : @{}
+ • 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : <a href='https://docs.pyrogram.org'>Pyrogram</a>
+ • 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
 
-👨‍💻 Develoved By :</b><a href='https://t.me/MaximXRobot'> I𝗓υɱi 和泉</a>
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 :</b><a href='https://t.me/MaximXRobot'>@MaximXRobot</a>
 """
