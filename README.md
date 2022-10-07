@@ -212,7 +212,7 @@ banned_users - Get All Banned Users [Owner Only]
 
 <h2 align="center">⟣⟞ Sᴜᴘᴘᴏʀᴛ ⟝⟢</h2>
 
-<p>**Star This Repo If You Like It ⭐⭐⭐⭐⭐**</p>
+<p>**Star This Repo If You Like It**</p>
 
 Mᴀᴅᴇ Wɪᴛʜ ♡ Bʏ [I𝗓υɱi 和泉](https://t.me/MaximXRobot).
 
