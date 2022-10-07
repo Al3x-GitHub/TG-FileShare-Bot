@@ -24,7 +24,7 @@ This is Telegram Parmanent Files Store Bot by [@AL3X-Github](https://github.com/
 ### 𝐃𝐞𝐦𝐨 𝐁𝐨𝐭:
 <a href="https://t.me/ShareFileXBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
-## Configs:
+# 𝐂𝐨𝐧𝐟𝐢𝐠𝐬 :
 - `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `API_HASH` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
