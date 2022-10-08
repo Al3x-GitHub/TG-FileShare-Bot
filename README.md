@@ -217,7 +217,7 @@ banned_users - Get All Banned Users [Owner Only]
 Mᴀᴅᴇ Wɪᴛʜ ♡ Bʏ [I𝗓υɱi 和泉](https://t.me/MaximXRobot).
 
 
-<h1 align='center'>あきらめないで!</h1>
+<h1 align='center'>⚡️あきらめないで!⚡️</h1>
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
