@@ -70,7 +70,7 @@ async def link_generator(client: Client, message: Message):
     while True:
         try:
             channel_message = await client.ask(
-                text="<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐝𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b>\n\n<b>𝐎𝐫 𝐒𝐞𝐧𝐝 𝐏𝐨𝐬𝐭 𝐋𝐢𝐧𝐤 𝐅𝐫𝐨𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
+                text="<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐝𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐎𝐫 𝐒𝐞𝐧𝐝 𝐏𝐨𝐬𝐭 𝐋𝐢𝐧𝐤 𝐅𝐫𝐨𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞</b>",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
