@@ -39,9 +39,9 @@ def updater():
         repo = Repo.init()
         origin = repo.create_remote("upstream", UPSTREAM_REPO)
         origin.fetch()
-        repo.create_head("master", origin.refs.master)
-        repo.heads.master.set_tracking_branch(origin.refs.master)
-        repo.heads.master.checkout(True)
+        repo.create_head("main", origin.refs.main)
+        repo.heads.main.set_tracking_branch(origin.refs.main)
+        repo.heads.main.checkout(True)
     ac_br = repo.active_branch.name
     if "upstream" in repo.remotes:
         ups_rem = repo.remote("upstream")
@@ -56,7 +56,7 @@ def updater():
 @Bot.on_message(filters.command("update") & filters.user(ADMINS))
 async def update_bot(_, message: Message):
     message.chat.id
-    msg = await message.reply_text("𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬...")
+    msg = await message.reply_text("𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐃𝐚𝐭𝐞𝐬...")
     update_avail = updater()
     if update_avail:
         await msg.edit("✅ 𝐔𝐩𝐝𝐚𝐭𝐞 𝐅𝐢𝐧𝐢𝐬𝐡𝐞𝐝!")
@@ -64,7 +64,7 @@ async def update_bot(_, message: Message):
         execle(sys.executable, sys.executable, "main.py", environ)
         return
     await msg.edit(
-        f"Bot is **up-to-date** with branch [main]({UPSTREAM_REPO}/tree/main)",
+        f"𝐁𝐨𝐬𝐭 𝐈𝐬 𝐔𝐩 𝐓𝐨 𝐃𝐚𝐭𝐞 𝐕𝟏 𝐖𝐢𝐭𝐡 𝐁𝐫𝐚𝐧𝐚𝐜𝐡 [main]({UPSTREAM_REPO}/tree/main)",
         disable_web_page_preview=True,
     )
 
@@ -72,7 +72,7 @@ async def update_bot(_, message: Message):
 @Bot.on_message(filters.command("restart") & filters.user(ADMINS))
 async def restart_bot(_, message: Message):
     try:
-        msg = await message.reply_text("`Restarting bot...`")
+        msg = await message.reply_text("`𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐁𝐨𝐭...`")
         LOGGER(__name__).info("𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝!!")
     except BaseException as err:
         LOGGER(__name__).info(f"{err}")

@@ -205,11 +205,11 @@ async def send_text(client: Bot, message: Message):
                     unsuccessful += 1
                 total += 1
         status = f"""<b><u>𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭</u>
-👤 𝐍𝐚𝐦𝐞 𝐎𝐟 𝐔𝐬𝐞𝐫𝐬: <code>{total}</code>
-😊 𝐒𝐮𝐜𝐜𝐞𝐬𝐬: <code>{successful}</code>
-😕 𝐅𝐚𝐢𝐥𝐞𝐝: <code>{unsuccessful}</code>
-🚫 𝐔𝐬𝐞𝐫 𝐁𝐥𝐨𝐜𝐤𝐞𝐝: <code>{blocked}</code>
-👻 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐀𝐜𝐜𝐨𝐮𝐧𝐭: <code>{deleted}</code></b>"""
+➲ 𝐍𝐚𝐦𝐞 𝐎𝐟 𝐔𝐬𝐞𝐫𝐬: <code>{total}</code>
+➲ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬: <code>{successful}</code>
+➲ 𝐅𝐚𝐢𝐥𝐞𝐝: <code>{unsuccessful}</code>
+➲ 𝐔𝐬𝐞𝐫 𝐁𝐥𝐨𝐜𝐤𝐞𝐝: <code>{blocked}</code>
+➲ 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐀𝐜𝐜𝐨𝐮𝐧𝐭: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
