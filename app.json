@@ -15,7 +15,7 @@
     },
     "OWNER": {
       "description": "Enter Telegram Username for Owner BOT [ Without @ ]",
-      "value": "MaximXRobot"
+      "value": ""
     },
     "ADMINS": {
       "description": "Enter User ID To Get Admin Rights In BOT [Use Space to Separate User ID]",
@@ -31,7 +31,7 @@
     },
     "CHANNEL_ID": {
       "description": "Enter Channel ID For [Channel Database]",
-      "value": "-100"
+      "value": ""
     },
     "PROTECT_CONTENT": {
       "description": "To Prevent Bot Users From Downloading/forwarding/screenshot Of Content Sent In Bots [ If You Want To Enable Change To True ]",
@@ -39,11 +39,11 @@
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Enter The ID Of The Channel Or Group For Mandatory Subscription, If You Don't Want To Use The Fsub, Fill It With 0",
-      "value": "-100"
+      "value": ""
     },
     "FORCE_SUB_GROUP": {
       "description": "Enter The ID Of The Group For Mandatory Subscription, if You Don't Want To Use The Fsub, Fill It With 0",
-      "value": "-100"
+      "value": " "
     },
     "START_MESSAGE": {
       "description": "The Message /start Starts A Prefix To The Bot, Use Parsemode HTML Format",
