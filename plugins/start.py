@@ -225,7 +225,7 @@ async def ping_pong(client, m: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    m_reply = await m.reply_text("𝐏𝐢𝐧𝐠....")
+    m_reply = await m.reply_text("🇵 🇮 🇳 🇬 ")
     delta_ping = time() - start
     await m_reply.edit_text(
         "<b>𝐏𝐎𝐍𝐆!!</b> 🏓 \n"
@@ -240,7 +240,7 @@ async def get_uptime(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m.reply_text(
-        "🤖 <b>🤖 𝐁𝐨𝐬𝐭 𝐒𝐭𝐚𝐭𝐮𝐬:</b>\n"
-        f"• <b>⚡ 𝐔𝐩𝐭𝐢𝐦𝐞Uptime:</b> <code>{uptime}</code>\n"
-        f"• <b>⏰ 𝐒𝐭𝐚𝐫𝐭 𝐓𝐢𝐦𝐞:</b> <code>{START_TIME_ISO}</code>"
+        "🤖 <b> 𝐁𝐨𝐬𝐭 𝐒𝐭𝐚𝐭𝐮𝐬:</b>\n"
+        f"• <b>⚡ 𝐔𝐩𝐭𝐢𝐦𝐞 :</b> <code>{uptime}</code>\n"
+        f"• <b>⏰ 𝐒𝐭𝐚𝐫𝐭 𝐓𝐢𝐦𝐞 :</b> <code>{START_TIME_ISO}</code>"
     )
