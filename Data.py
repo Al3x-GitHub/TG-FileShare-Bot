@@ -17,10 +17,9 @@ class Data:
  ├ /users - To View Bot User Statistics.
  ├ /batch - To Link More Than One File.
  ├ /speedtest - Test The Speed Of The Bot.
- └ /broadcast - Broadcast Messages To Bot Users.
+ └ /broadcast - Broadcast Messages To Users.
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 : @MaximXRobot
-"""
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 </b><a href='https://t.me/MaximXRobot/101'>@MaximXRobot</a>"""
 
     close = [
         [InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞", callback_data="close")]
@@ -49,5 +48,5 @@ class Data:
  ➲ 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : <a href='https://docs.pyrogram.org'>Pyrogram</a>
  ➲ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 : @MaximXRobot
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 </b><a href='https://t.me/MaximXRobot/101'>@MaximXRobot</a>
 """
