@@ -19,7 +19,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "MaximXRobot")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -29,16 +29,16 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Custom Repo For updater.
-UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "main")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID From The Channel Or Group For Mandatory Subscription
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", ""))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
