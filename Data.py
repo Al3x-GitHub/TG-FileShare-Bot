@@ -45,9 +45,9 @@ class Data:
 
 @{} Is A Telegram Bot To Store Posts Or Files That Can Be Accessed Via Special Links Work 24×7.
 
- • 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : @{}
- • 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
+ ➲ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : @{}
+ ➲ 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : <a href='https://docs.pyrogram.org'>Pyrogram</a>
+ ➲ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
 
 👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 :</b> @MaximXRobot
 """
