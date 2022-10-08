@@ -3,24 +3,23 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     HELP = """
 <b> ❍ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐅𝐨𝐫 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫𝐬
- ├ /start - Start Bot
- ├ /about - About This Bot
- ├ /help - This Bot Command Help
- ├ /ping - To Check Alive Bot
- └ /uptime - To View Bot Status
+ ├ /start - Start Bot.
+ ├ /about - About This Bot.
+ ├ /help - This Bot Command Help.
+ ├ /ping - To Check Alive Bot.
+ └ /uptime - To View Bot Status.
  
  ❏️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐅𝐨𝐫 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧
- ├ /logs - To View Bot Logs
- ├ /setvar - To Set Var With Command
- ├ /delvar - To Delete Var With Command
- ├ /getvar - To View One Of The Vars With The
- 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
- ├ /users - To View Bot User Statistics
- ├ /batch - To Link More Than One File
- ├ /speedtest - To Test The Speed Of The Bot Server
- └ /broadcast - To Send Broadcast Messages To Bot Users
+ ├ /logs - To View Bot Logs.
+ ├ /setvar - To Set Var With Command.
+ ├ /delvar - To Delete Var With Command.
+ ├ /getvar - To View One Of The Var.
+ ├ /users - To View Bot User Statistics.
+ ├ /batch - To Link More Than One File.
+ ├ /speedtest - Test The Speed Of The Bot Server.
+ └ /broadcast - Broadcast Messages To Bot Users.
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 : </b><a href='https://t.me/MaximXRobot'>@MaximXRobot</a>
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 : </b> @MaximXRobot </a>
 """
 
     close = [
@@ -50,5 +49,5 @@ class Data:
  • 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : <a href='https://docs.pyrogram.org'>Pyrogram</a>
  • 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : <a href='https://t.me/+vBu5aXlocTkwNGM1'>TG-FileShare-Bot</a>
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 :</b><a href='https://t.me/MaximXRobot'>@MaximXRobot</a>
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐯𝐞𝐝 𝐁𝐲 :</b> @MaximXRobot
 """
