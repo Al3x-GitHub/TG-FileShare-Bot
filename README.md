@@ -46,7 +46,7 @@ Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 
 
 ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐍𝐨𝐰 :
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AL3X-Github/TG-FileShare-Bot)
+[![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/AL3X-Github/TG-FileShare-Bot)
 
 ## 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 :
 ```
