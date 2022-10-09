@@ -70,12 +70,9 @@ banned_users - Get All Banned Users [Owner Only]
 
 Mᴀᴅᴇ Wɪᴛʜ ♡ Bʏ [I𝗓υɱi 和泉](https://t.me/MaximXRobot).
 
-<h1 align='center'>あきらめないで!</h1>
-
-╔═══════ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ════════╗
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/MaximXGroup)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/MaximXGroup)ㅤ
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/MaximXChannels)
-<br>╚═══════ ▢▢▢▢▢ ════════╝
+<br>
 
 © Copyright Holder : [Maxim X Bots](https://t.me/MaximXBots)
 
