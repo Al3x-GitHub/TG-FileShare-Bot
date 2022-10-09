@@ -58,22 +58,16 @@ ban_user - [user_id] [ban_duration] [ban_reason] Ban Any User [Owner Only]
 unban_user - [user_id] Unban Any User [Owner Only]
 banned_users - Get All Banned Users [Owner Only]
 ```
+
 <div align="center">
 
-<h2 align="center">⟣⟞ Sᴜᴘᴘᴏʀᴛ ⟝⟢</h2>
+[![Telegram](https://img.shields.io/badge/Group-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXGroup) [![Telegram](https://img.shields.io/badge/Channel-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXChannels)
 
-<p>𝐒𝐭𝐚𝐫 𝐓𝐡𝐢𝐬 𝐑𝐞𝐩𝐨 𝐈𝐟 𝐘𝐨𝐮 𝐋𝐢𝐤𝐞 𝐈𝐭</p>
-
-Mᴀᴅᴇ Wɪᴛʜ ♡ Bʏ [I𝗓υɱi 和泉](https://t.me/MaximXRobot).
-
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/MaximXGroup)ㅤ
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/MaximXChannels)
-<br>
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/AL3X-Github)
 
 © Copyright Holder : [Maxim X Bots](https://t.me/MaximXBots)
 
 </p>
-
 </div>
 <hr>
 </div>
