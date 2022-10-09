@@ -59,10 +59,6 @@ unban_user - [user_id] Unban Any User [Owner Only]
 banned_users - Get All Banned Users [Owner Only]
 ```
 <div align="center">
-<img src="https://i.imgur.com/KXx0cCx.gif">
-
-[![Sparkline](https://stars.medv.io/TeamUltroid/Ultroid.svg)](https://stars.medv.io/TeamUltroid/Ultroid)
-<br />
 
 <h2 align="center">⟣⟞ Sᴜᴘᴘᴏʀᴛ ⟝⟢</h2>
 
