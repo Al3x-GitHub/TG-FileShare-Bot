@@ -54,14 +54,15 @@ Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/AL3X-Github/TG-FileShare-Bot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-<div align="center">
-
 
 <h2 align="center">
     ─「 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 & 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 」─
 </h2>
 
-ㅤ [![Telegram](https://img.shields.io/badge/Group-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXGroup) [![Telegram](https://img.shields.io/badge/Channel-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXChannels)
+<div align="center">
+
+
+[![Telegram](https://img.shields.io/badge/Group-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXGroup)ㅤ[![Telegram](https://img.shields.io/badge/Channel-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXChannels)
 ㅤ
 ㅤ
 
