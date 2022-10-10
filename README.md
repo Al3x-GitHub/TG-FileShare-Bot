@@ -10,12 +10,17 @@ Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 
 <p>
 
-## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 :
-- In PM Just Forward or Send any file it will save on Database & give you the Access Link.
-- In Channel Add Bot as Admin with Edit Rights. When you will send any file or media in Channel it will Edit the Broadcast Message with Saved Link Button.
-- You can also Broadcast anythings via this Bot.
-- You can also Do Force Sub to a Channel to allow access the Bot.
-- Save Multiple Files in Same Link. (Batch)
+### Features 
+- Fully Customizable. 
+- Can Be Deployed On Heroku & VPS. 
+- Customizable Welcome Message & Forcesub. 
+- More Than One Post In One Link.
+- Flexible FSUB Button Can Be 1 Button Or 2 Buttons According To The Var Being Filled.
+
+### Setup 
+- Add Bot To Channel Database With All Admin Permission. 
+- Add Bot To Channel ForceSub Add Bot As ADMIN. 
+- Add Bot To Group ForceSub Add Bot As ADMIN.
 
 ## 𝐃𝐞𝐦𝐨 𝐁𝐨𝐭 :
 <a href="https://t.me/ShareFileXBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
@@ -24,40 +29,17 @@ Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 - `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `API_HASH` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
-- `BOT_USERNAME` - You Bot Username. *(Without [@])*
-- `DB_CHANNEL` - A Telegram Channel ID.
-	- Make a Channel for Storing Files. We will use that as Database. Channel must be Private! Else you will be Copyright by [Telegram DMCA](https://t.me/dmcatelegram)!
-- `BOT_OWNER` - Bot Owner UserID
-	- Put your Telegram UserID for doing Broadcast.
-- `DATABASE_URL` - MongoDB Database URI
-	- This for Saving UserIDs. When you will Broadcast, bot will forward the Broadcast to DB Users.
-- `UPDATES_CHANNEL` - Force Sub Channel ID *(Optional)*
-	- ID of a Channel which you want to do Force Sub to use the bot. 
-- `LOG_CHANNEL` - Logs Channel ID
-	- This for some getting user info. If any new User added to DB, Bot will send Log to that Logs Channel. You can use same DB Channel ID.
-- `FORWARD_AS_COPY` - Value should be `True` or `False` *(Optional)*
-	- If `True` all messages will be forwarder *As Copy*. If `False` all messages will be forwarder with Forward Tag.
-- `BROADCAST_AS_COPY` - Value should be `True` or `False` *(Optional)*
-  	- Broadcast with Forward Tag or as Copy.*(Without Forward Tag)*
-- `BANNED_USERS` - Banned unwanted members
-         - Put all banned user IDs & Separate with space.
-- `BANNED_CHAT_IDS` - All Banned Channel IDs *(Optional)*
-	- Put all banned channel IDs & Separate with space.
-
+- `ADMINS` - *(Optional)*
+- `DB_CHANNEL` - *(Required)*
+- `BOT_OWNER` - *(Required)*
+- `FORCE_SUB_CHANNEL` - *(Optional)*
+- `FORCE_SUB_GROUP` - *(Optional)*
+- `PROTECT_CONTENT` - *(Optional)*
+- `FORCE_SUB_MESSAGE` - *(Optional)*
+- `START_MESSAGE` - *(Optional)*
 
 ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐍𝐨𝐰 :
 [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/AL3X-Github/TG-FileShare-Bot)
-
-## 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 :
-```
-start - start the bot
-clear_batch - Clear User Batch Files
-status - Show number of users in DB [Owner Only]
-broadcast - Broadcast replied message to DB Users [Owner Only]
-ban_user - [user_id] [ban_duration] [ban_reason] Ban Any User [Owner Only]
-unban_user - [user_id] Unban Any User [Owner Only]
-banned_users - Get All Banned Users [Owner Only]
-```
 
 <div align="center">
 
