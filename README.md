@@ -61,20 +61,20 @@ Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Group-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXGroup)
-[![Telegram](https://img.shields.io/badge/Channel-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXChannels)
-ㅤ
-ㅤ
+![Cover](https://te.legra.ph/file/601cfb397a19f503c9265.jpg)
 
-<h2 align="center">
-    ─「 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 」─
-</h2>
+</div>
+
+<div align="center">
+
+ⓘ あきらめないで
+
+[![Telegram](https://img.shields.io/badge/Group-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXGroup) [![Telegram](https://img.shields.io/badge/Channel-%232C3454?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaximXChannels)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/AL3X-Github)
 
 © Copyright Holder : [Maxim X Bots](https://t.me/MaximXBots)
 
-</p>
 </div>
 <hr>
 </div>
