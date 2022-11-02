@@ -6,11 +6,11 @@ Telegram Bot to store Posts or Files that can be Accessed via Special Links. I T
 
 Telegram Files Store Bot By [@AL3X-Github](https://github.com/AL3X-Github).
 
+<img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Izumi%20X%20Shikimori.png">
+
+
 * **Language :** [Python3](https://www.python.org)
 * **Library :** [Pyrogram](https://docs.pyrogram.org)
-
-
-<img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Izumi%20X%20Shikimori.pn">
 
 <details>
 <summary><h3>「 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 」
